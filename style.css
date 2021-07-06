@@ -42,7 +42,6 @@ p{
 .half-width img{
     width: 85%;
     padding:5px 20px;
-   
 }
 .link-button{
     text-decoration: none;
@@ -116,9 +115,14 @@ p{
     margin: 0 auto;
 }
 #services .icon{
-    margin: 0 62px;
+    margin: 0 40px;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(165, 165, 165, 0.507);
+}
+#services .icon img{
+    width: 100%;
+    border-radius: 30px;
 }
 #services .icon h4{
     text-align: center;
@@ -126,6 +130,7 @@ p{
 }
 #services .icon p{
     text-align: center;
+    padding: 0 20px;
 }
 .footer{
     text-align: center;
