@@ -58,7 +58,7 @@ p{
     padding-top: 30px;
     padding-right: 200px;
 }
-.my-recipies{
+.my-recipies h3{
     text-align: center;
     margin-top: 50px;
 }
@@ -100,6 +100,32 @@ p{
 #followers .followers-box{
     padding: 0 128px;
     margin: 30px;
+}
+#services{
+    background-color: #fef2f4;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+#services h3{
+    text-align: center;
+    margin: 40px 0;
+}
+#services .icons{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+#services .icon{
+    margin: 0 62px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(165, 165, 165, 0.507);
+}
+#services .icon h4{
+    text-align: center;
+    font-size: 20px;
+}
+#services .icon p{
+    text-align: center;
 }
 .footer{
     text-align: center;
