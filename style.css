@@ -1,7 +1,7 @@
 body{
     font-family: 'PT Sans', sans-serif;
     color: #575757;
-    margin: auto;
+    margin: 0 auto;
 }
 h1{
     font-size: 65px;
@@ -9,34 +9,41 @@ h1{
     line-height: 75px;
 }
 h3{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 p{
     line-height: 25px;
-    margin-bottom: 30px;
 }
 .orange-color{
     color: #ff575a;
 }
 .flexible-container{
-    display: flex;
     margin-bottom: 30px;
+    display: flex;
+}
+#background-image{
+    background-image: url(images/background-image.png);
+    background-repeat: no-repeat;
+}
+#background-image .half-width img{
+    width: 50%;
+    padding-left: 100px;
 }
 .half-width{
     width: 50%;
-    padding: 80px 20px 10px 150px;
+    padding: 80px 20px 10px 200px;
 }
 .half-width img{
-    width: 80%;
+    width: 85%;
     padding:5px 20px;
    
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(#ff575a, #f36e83);
-    padding: 8px 20px;
+    padding: 12px 26px;
     border-radius: 30px;
     color: white;
     font-weight: 550;
@@ -44,10 +51,43 @@ p{
 }
 .about-me{
     width: 50%;
-    padding: 80px 100px 10px 80px;
-    border: 1px dotten gray;
+    padding-top: 30px;
+    padding-right: 200px;
 }
-.about-us img{
-    width: 50%%;
-    padding:5px 250px;
+.my-recipies{
+    text-align: center;
+    margin-top: 50px;
+}
+.my-recipies p{
+    text-align: center;
+    padding: 0 450px;
+}
+.food-1{
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.foods{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.food-itmes{
+    width: 100%;
+    margin: 30px;
+    padding: 36px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(165, 165, 165, 0.507);
+}
+.food-itmes img{        
+    width: 100%;
+    border-radius: 20px;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: #131625;
 }
